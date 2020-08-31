@@ -22,9 +22,10 @@
                     id="mobile" href="tel:503-351-0987">503-351-0987</a></p>
             <p id="important"><i>*I do not and will not accept any calls from promoters*</i></p>
 
-            <?php require_once('includes/footer.html.php'); ?>
 
         </main>
+
+        <?php require_once('includes/footer.html.php'); ?>
 
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
