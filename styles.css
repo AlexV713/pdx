@@ -1,0 +1,409 @@
+/* Fonts 
+font-family: 'Oswald', sans-serif;
+
+font-family: 'Roboto Condensed', sans-serif;
+*/
+
+/* Mobile Stylesheets */
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: white;
+    overflow-x: hidden;
+}
+
+#wrapper {
+    background-color: white;
+}
+
+header {
+    background-image: linear-gradient(45deg, #223dd6 50%, #57adf7);
+    color: white;
+    padding: 0.5em;
+    text-align: center;
+}
+
+h1,
+h2,
+h3,
+nav {
+    font-family: 'Oswald', sans-serif;
+}
+
+h2 {
+    padding-left: 0.6em;
+    padding-right: 0.6em;
+}
+
+p,
+ul,
+li,
+.numbertext,
+.text {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.headings {
+    padding-left: 0.8em;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+}
+
+header h1:hover {
+    opacity: 0.5;
+}
+
+nav {
+    display: none;
+}
+
+.mobile-nav #mobile-links {
+    list-style-type: none;
+    text-align: center;
+    overflow: hidden;
+}
+
+#mobile-links a {
+    color: white;
+    font-size: 1.3em;
+    display: block;
+    padding: 0.5em 0.5em;
+}
+
+#mobile-links a:active {
+    opacity: 0.5;
+}
+
+.mobile-nav #mobile-links {
+    display: none;
+}
+
+.borders {
+    border-bottom: solid black 1px;
+}
+
+p {
+    padding-left: 1em;
+    padding-right: 1em;
+    font-size: 1.2em;
+}
+
+#important {
+    font-size: 1em;
+    color: red;
+}
+
+.fa-bars {
+    font-size: 2em;
+}
+
+.fa-bars:active {
+    opacity: 0.5;
+}
+
+#card {
+    background-size: cover;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+video {
+    margin-top: 1em;
+    height: 25em;
+    width: 25em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+}
+
+#video_tag {
+    text-align: center;
+    font-size: 12px;
+}
+
+#desktop {
+    display: none;
+}
+
+#mobile {
+    display: inline;
+}
+
+footer {
+    background-image: linear-gradient(45deg, #223dd6 50%, #57adf7);
+    padding: 0.5em;
+}
+
+footer p {
+    color: white;
+    font-style: italic;
+    font-size: 0.7em;
+    text-align: center;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+/* SLIDESHOW */
+
+.slideshow-container {
+    max-width: 23em;
+    max-height: 15em;
+    position: relative;
+    margin: auto;
+    background-color: black;
+    border: solid black 1px;
+}
+
+.slideshow-container img {
+    max-width: 23em;
+    max-height: 15em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: cover;
+}
+
+.mySlides {
+    display: none;
+}
+
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    background-color: gray;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover,
+.next:hover {
+    background-color: #cfcfcf;
+}
+
+.prev:active,
+.next:active {
+    background-color: #cfcfcf;
+}
+
+.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+/* Tablet Stylesheets */
+
+@media only screen and (min-width: 481px) {
+    body {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+    }
+
+    h2 {
+        padding-left: 0.6em;
+    }
+
+    .headings {
+        padding-left: 0.8em;
+    }
+
+    .slideshow-container {
+        max-width: 45em;
+        max-height: 30em;
+        position: relative;
+        margin: auto;
+        background-color: black;
+        border: solid black 1px;
+    }
+
+    .slideshow-container img {
+        max-width: 45em;
+        max-height: 30em;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        object-fit: cover;
+    }
+
+    video {
+        height: 30em;
+        width: 40em;
+    }
+
+    #mobile {
+        display: none;
+
+    }
+
+    #desktop {
+        display: inline;
+    }
+
+}
+
+/* Desktop Stylesheets */
+
+@media only screen and (min-width: 1025px) {
+    body {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        background-image: url(images/tools2.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    #wrapper {
+        min-width: 50em;
+        max-width: 90em;
+        margin: auto;
+        background-color: white;
+    }
+
+    #bod {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(140px, 1fr));
+        grid-gap: 1em;
+        padding: 1em;
+    }
+
+    header {
+        text-align: left;
+    }
+
+    h2 {
+        padding-left: 0.6em;
+    }
+
+    nav {
+        text-align: center;
+    }
+
+    nav a {
+        color: white;
+        text-decoration: none;
+        font-size: 18px;
+    }
+
+    nav a:hover {
+        opacity: 0.5;
+    }
+
+    nav a:active {
+        color: black;
+    }
+
+    nav {
+        display: inline;
+    }
+
+    .mobile-nav {
+        display: none;
+    }
+
+    .headings {
+        padding-left: 0.8em;
+    }
+
+    #card {
+        max-width: 50%;
+    }
+
+    video {
+        height: 30em;
+        width: 50em;
+    }
+
+    .slideshow-container {
+        max-width: 50em;
+        max-height: 30em;
+        position: relative;
+        margin: auto;
+        background-color: black;
+        border: solid black 1px;
+    }
+
+    .slideshow-container img {
+        max-width: 50em;
+        max-height: 30em;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        object-fit: cover;
+    }
+
+    .mySlides {
+        display: none;
+    }
+
+    #mobile {
+        display: none;
+    }
+
+    #desktop {
+        display: inline;
+        color: blue;
+    }
+}
