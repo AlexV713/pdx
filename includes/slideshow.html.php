@@ -35,7 +35,7 @@ $slides = array('kitchen.jpg', 'new_floor.jpg', 'brick_floor.jpg', 'brick_floor2
         <div class="mySlides fade">
             <div class="numbertext">5 / <?php echo $total; ?></div>
             <img src="images/<?php echo $slides[4]; ?>" alt="polished floor">
-            <div class="text">New Wood Floor</div>
+            <div class="text">Sanded Wood Floor</div>
         </div>
 
         <div class="mySlides fade">
@@ -71,13 +71,13 @@ $slides = array('kitchen.jpg', 'new_floor.jpg', 'brick_floor.jpg', 'brick_floor2
         <div class="mySlides fade">
             <div class="numbertext">11 / <?php echo $total; ?></div>
             <img src="images/<?php echo $slides[10]; ?>" alt="old wood steps">
-            <div class="text">Broken Wood Steps</div>
+            <div class="text">Broken Wood Steps (Before)</div>
         </div>
 
         <div class="mySlides fade">
             <div class="numbertext">12 / <?php echo $total; ?></div>
             <img src="images/<?php echo $slides[11]; ?>" alt="new wood steps">
-            <div class="text">Fixed & Polished Wood Steps</div>
+            <div class="text">Fixed & Polished Wood Steps (After)</div>
         </div>
 
         <div class="mySlides fade">
@@ -101,13 +101,13 @@ $slides = array('kitchen.jpg', 'new_floor.jpg', 'brick_floor.jpg', 'brick_floor2
         <div class="mySlides fade">
             <div class="numbertext">16 / <?php echo $total; ?></div>
             <img src="images/<?php echo $slides[15]; ?>" alt="broken wood fence">
-            <div class="text">Destroyed Wood Fence</div>
+            <div class="text">Broken Wood Fence (Before)</div>
         </div>
 
         <div class="mySlides fade">
             <div class="numbertext">17 / <?php echo $total; ?></div>
             <img src="images/<?php echo $slides[16]; ?>" alt="repaired wood fence">
-            <div class="text">Fixed Wood Fence</div>
+            <div class="text">Fixed Wood Fence (After)</div>
         </div>
 
         <div class="mySlides fade">
@@ -131,7 +131,7 @@ $slides = array('kitchen.jpg', 'new_floor.jpg', 'brick_floor.jpg', 'brick_floor2
         <div class="mySlides fade">
             <div class="numbertext">21 / <?php echo $total; ?></div>
             <img src="images/<?php echo $slides[20]; ?>" alt="wood flooring">
-            <div class="text">Painted Floor</div>
+            <div class="text">Painted Wood Floor</div>
         </div>
 
         <div class="mySlides fade">
