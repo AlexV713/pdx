@@ -42,9 +42,7 @@
             </video>
             <p id="video_tag">Video of a Complete Remodeled House!</p>
 
-            <p>Do you need a handyman or a landscaper? Give me a call or send me a text message explaining to me what
-                you need and where in Oregon you are located.</p>
-            <p id="contact">For a free estimate, Please call or text: <span id="desktop">503-351-0987</span><a
+            <p id="contact">For a free estimate, please call or text: <span id="desktop">503-351-0987</span><a
                     id="mobile" href="tel:503-351-0987">503-351-0987</a></p>
             <p id="important"><i>*I will not accept any calls or text from promoters*</i></p>
 

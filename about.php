@@ -39,22 +39,19 @@
             <img id="card" src="images/pdx_card.jpg" alt="card_image">
 
             <h3 class="headings">My Story</h3>
-            <p class="bio">I am Jose Valerio (owner) and I've been working as a Handyman for more than 30 years now! I
+            <p class="bio">Hello, I am Jose Valerio (owner) and I've been working as a Handyman for more than 30 years. I
                 started working as a handyman
                 back
-                in
-                Mexico, and after I moved here to the U.S, I started my own business!</p>
+                in my
+                home country Mexico, and started my business after moving to the U.S.</p>
 
             <h3 class="headings">Where I Work</h3>
-            <p class="bio">I work as a handyman or landscaper in all Cornelius, Hillsboro, Beaverton, Aloha, Tigard, Newberg, Tillamook, Lincoln
+            <p class="bio">I am available in your area! All Forest Grove, Cornelius, Hillsboro, Beaverton, Aloha, Tigard, Newberg, Tillamook, Lincoln
                 City, Oregon City, Portland, McMinnville, Lake Oswego, and Vancouver Washington!</p>
 
-            <h3 class="headings">My Services</h3>
-            <p class="bio">My services are handyman work,
-                landscape, hardscape, remodeling, painting, and installation! <br><br>Feel free to give me a call if you
-                need any one
-                of
-                these jobs done.</p>
+            <h3 class="headings">Services</h3>
+            <p class="bio">Handyman work,
+                landscape, hardscape, remodeling, painting, and installation! <br><br>Give me a call for your free estimate today!</p>
 
         </main>
 
